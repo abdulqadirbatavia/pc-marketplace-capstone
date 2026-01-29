@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio files
+.vs/
+bin/
+obj/
