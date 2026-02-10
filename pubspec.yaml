@@ -1,14 +1,15 @@
 name: pc_marketplace_capstone
-description: PC Part Marketplace Capstone Project
+description: PC Part Marketplace for Capstone Project
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.9.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.1.1
 
 dev_dependencies:
   flutter_test:
@@ -17,5 +18,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/images/
